@@ -1,0 +1,9 @@
+.navbar{
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 2.5rem;
+    margin-top: 2rem;
+}   
+.navbar-collapse {
+    justify-content: flex-end;
+}

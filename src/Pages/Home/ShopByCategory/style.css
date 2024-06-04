@@ -1,0 +1,29 @@
+  .shop-by-category .categories {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+.shop-by-category h1::after{
+    content: url("../../../assets/Star1.png");
+    position: absolute;
+    right: -49px;
+    top: -5px;
+}
+.shop-by-category h1::before{
+    content: url("../../../assets/Star2.png");
+    position: absolute;
+    right: -88px;
+    top: 14px;
+}
+  .shop-by-category .categories img {
+    max-width: 300px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .shop-by-category a{
+    padding: 8px 20px;
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
