@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import shoppingBag from '../../assets/shopping-bag.png'
 import logo from '../../assets/logo1.png'
 import './style.css'
 
@@ -18,6 +19,9 @@ const Navbar = () =>{
           <Link to='/' className="nav-link" >Products</Link>
           <Link to='/' className="nav-link" >Categories</Link>
           <Link to='/' className="nav-link" >About Us</Link>
+          <Link to='/' className="nav-link" style={{marginLeft: '16px'}}>
+            <img src={shoppingBag} alt='shoppingBag' width={20} style={{marginTop: '-8px'}}/>
+          </Link>
         </div>
       </div>
     </div>
