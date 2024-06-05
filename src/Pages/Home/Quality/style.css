@@ -1,0 +1,18 @@
+.quality{
+    margin: 8rem 0;
+}
+.quality h1{
+    position: relative;
+    color: #fff;
+    padding: 3rem 3rem 0;
+    font-weight: 600;
+}
+.quality h1::after{
+    content: url("../../../assets/arrow.png");
+    position: absolute;
+    left: 77px;
+    top: -50px;
+}
+.quality img{
+    width: 70%;
+}
